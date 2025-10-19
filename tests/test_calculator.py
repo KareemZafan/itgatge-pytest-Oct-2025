@@ -8,7 +8,7 @@ def test_add_function(a,b,result):
     
 
 def test_subtract_function():
-    assert calc.sub(2,0) == 2
+    assert calc.sub(2,0) == -9
     assert calc.sub(0,3) == -3
     assert calc.sub(-3,-9) == 6
     assert calc.sub(3,9) == -6    
