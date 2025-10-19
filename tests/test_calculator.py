@@ -19,7 +19,7 @@ def test_multiply_function(num1,num2,res):
     assert calc.mul(num1,num2) == res
     
 
-@pytest.mark.skip(reason="It has bugs")
+#@pytest.mark.skip(reason="It has bugs")
 def test_divide_function():
     assert calc.div(2,0) == None
     assert calc.div(0,3) == 0
